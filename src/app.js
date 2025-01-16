@@ -48,6 +48,7 @@ app.post('/api/data', (req, res) => {
 
 // init database
 
+require('./dbs/init.mongodb');
 // handle errors
 
 module.exports = app;
